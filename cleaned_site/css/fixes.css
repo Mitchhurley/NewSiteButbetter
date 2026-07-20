@@ -46,25 +46,41 @@ body > table[align="center"] {
 }
 .navigation a:hover { color: #ccc; }
 
-/* ----- Home hero (index.html) ----- */
-.home-hero {
+/* ----- Home page (index.html): text above, full-bleed elevation below ----- */
+.home-notice {
     text-align: center;
-    padding: 20px;
+    color: #cc0000;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.5px;
+    margin: 24px 16px 0;
 }
-.home-hero img {
-    max-width: 900px;
-    width: 100%;
-    height: auto;
+.home-intro {
+    text-align: center;
+    max-width: 640px;
+    margin: 12px auto 28px;
+    padding: 0 16px;
 }
 .home-tagline {
     color: #808080;
     font-size: 14px;
     line-height: 1.5;
-    max-width: 640px;
-    margin: 24px auto 8px;
+    margin: 0 0 8px;
 }
 .home-enter { margin: 0; }
 .home-enter a { font-weight: bold; font-size: 14px; }
+/* Full-width elevation band — spans edge to edge (body has no margin) */
+.home-elev img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.home-footer {
+    text-align: right;
+    padding: 8px 12px 4px;
+    font-size: 9px;
+    color: #999;
+}
 
 /* ----- Fonts ----- */
 .font_head { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; color: #333; }
