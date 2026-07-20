@@ -1,0 +1,11 @@
+# Local recovery source / scratch — not part of the deployed site.
+# (Remove this line if you want the raw Internet Archive dumps + extractor
+#  script versioned in the repo.)
+Oldprojects/
+
+# Logs & OS/editor junk
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/

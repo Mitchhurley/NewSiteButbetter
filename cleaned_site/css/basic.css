@@ -1,0 +1,168 @@
+/* Placeholder for basic.css */
+/* Common fixes for Joseph Hurley Architects website */
+
+/* Navigation styles */
+.navigation {
+    background-color: #333;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    margin: 0 15px;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.navigation a:hover {
+    color: #ccc;
+}
+
+/* Basic layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/* Font styles */
+.font_head {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.font_menu {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #666;
+}
+
+.menu {
+    text-decoration: none;
+    color: #666;
+}
+
+.menu:hover {
+    color: #333;
+}
+
+#selected {
+    font-weight: bold;
+    color: #333;
+}
+
+.font_group, .content, .content11, .content12 {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #808080;
+}
+
+.font_groupBold {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #808080;
+}
+
+.font_groupSelect {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+/* Project gallery */
+.thumbs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.thumbs li {
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+.thumb img {
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+
+.slideshow-container {
+    height: 300px;
+    overflow: hidden;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navigation li {
+        margin: 5px 0;
+    }
+    
+    table {
+        width: 100% !important;
+    }
+    
+    td {
+        display: block;
+        width: 100% !important;
+    }
+}
+
+/* Publication page specific styles */
+div#a {
+    float: left;
+    width: 20%;
+    text-align: left;
+}
+
+div#c {
+    float: left;
+    width: 80%;
+    text-align: left;
+}
+
+div#b {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+/* Footer */
+.content9 {
+    font-size: 9px;
+    color: #999;
+}
